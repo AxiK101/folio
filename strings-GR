@@ -1,0 +1,802 @@
+<resources>
+    
+<!--Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+
+	<!-- Basic Strings -->
+    <string name="app_name">Folio</string>
+    <!-- Replaces Facebook WebView Title -->
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_about">Folio για Facebook</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="end">Αποσύνδεση</string>
+    <!-- Close Drawer -->
+    <string name="closeDrawer">Προβολή Πλοήγησης</string>
+    <!-- Open Drawer -->
+    <string name="openDrawer">Άνοιγμα Αριστερού Πάνελ</string>
+    
+    <!-- Close The App -->
+    <string name="exit">Κλείσιμο</string>
+    <!-- Save Image On Long Press -->
+    <string name="customize_folio">Προσαρμογή του Folio</string>
+    <string name="customize_folio_hint">Αλλαγή Εμφάνισης και Διάταξης.</string>
+    <string name="tap_to_set">Αποθήκευση Αλλαγών</string>
+   
+    <string name="status_updated">Ενημέρωση Κατάστασης.</string>
+    
+    
+    <!-- FAB LABELS -->
+    <string name="update_status">Κοινοποίηση Κατάστασης</string>
+    <string name="update_photo">Πρόσθεσε φωτογραφίες</string>
+    <string name="update_share">Κοινοποίησε Τώρα</string>
+    
+    <string name="license_success">Ενεργοποίηση Θεμάτων</string>
+    <string name="license_failed">Απενεργοποίηση Θεμάτων</string>
+    
+    <string name="show_fab">Προβολή FAB</string>
+    <string name="show_fab_hint">Εμφάνιση ενός αιωρούμενου κουμπιού για κοινοποίηση ενημερώσεων στο Facebook μέσω του Folio.</string>
+    
+    <string name="loading_video">Φόρτωση</string>
+    
+    <string name="hide_sponsored">Απόκρυψη Συνδέσμων Δημοσίευσης</string>
+    <string name="hide_sponsored_description">Αφαίρεση διαφημίσεων του Facebook &amp; Συνδέσμων Δημοσίευσης.</string>
+    
+    
+    
+    
+    
+          
+    
+    <!-- Folio Drawer -->
+    <string name="quickaccess">Γρήγορη Πρόσβαση</string>
+    <string name="newsfeed">Πρόσφατα</string>
+    <string name="trending">Δημοφιλή</string>
+    <string name="messages">Μηνύματα</string>
+    <string name="topnews">Πιο Πρόσφατα</string>
+    <string name="fbmenu">Μενού Facebook</string>
+    
+    <string name="faved">Αγαπημένα</string>
+    <string name="friends">Φίλοι</string>
+    <string name="groups">Ομάδες</string>
+    <string name="pages">Σελίδες</string>
+    <string name="photos">Φωτογραφίες</string>
+    
+    <string name="reminders">Υπενθιμήσεις</string>
+    <string name="events">Εκδηλώσεις</string>
+    <string name="onthisday">Σαν Σήμερα</string>
+    <string name="saved">Αποθηκευμένα</string>
+    
+    <string name="prefs">Προτιμήσεις</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="helpfeed">Ανατροφοδότηση</string>
+    <string name="bugs">Αναφορά Σφάλματος</string>
+    
+    <!-- Twitter Drawer -->
+    <string name="discover">Ανακάλυψε</string>
+    <string name="connect">Σύνδεση</string>
+    <string name="twitter_search">Αναζήτηση</string>
+    <string name="twitter_home">Σπίτι</string>
+    <string name="twitter_me">Εγώ</string>
+    <string name="switch_to_folio">Αλλαγή σε Folio</string>
+    <string name="switch_to_twitter">Αλλαγή σε Twitter</string>
+    <string name="switch_to_gplus">Αλλαγή σε Google+</string>
+    <string name="switch_to_gram">Αλλαγή σε Instagram</string>
+    <string name="switch_to_tum">Αλλαγή σε Tumblr</string>
+    
+    <!-- Add ons -->
+    <string name="addons">Κοινωνικά Δίκτυα Add-ons</string>
+    <string name="addons_hint">Twitter απαιτεί το Twitter Add-on.</string>
+    <string name="enable_twitter">Εμφάνιση Twitter</string>
+    <string name="enable_google">Αφαίρεση Google+</string>
+    <string name="enable_instagram">Αφαίρεση Instagram</string>
+    <string name="enable_tumblr">Αφαίρεση Tumblr</string>
+    
+    <!-- Removals -->
+    <string name="navigation_pref">Αντικείμενα Μενού Πλοήγησης/string>
+    <string name="navigation_pref_hint">Τροποποίησε το Μενού Πλοήγησης αφαιρώντας αντικείμενα που δεν χρησιμοποιείς στο Folio.</string>
+    <string name="recent_nav">Αφαίρεση Πιο Πρόσφατων</string>
+    <string name="top_nav">Αφαίρεση Κορυφαίων</string>
+    <string name="facebook_nav">Αφαίρεση Μηνυμάτων</string>
+    <string name="trending_nav"Αφαίρεση Δημοφιλών</string>
+    <string name="friends_nav">Αφαίρεση Φίλων</string>
+    <string name="groups_nav">Αφαίρεση Ομάδων</string>
+    <string name="pages_nav">Αφαίρεση Σελίδων</string>
+    <string name="photos_nav">Αφαίρεση Φωτογραφιών</string>
+    <string name="events_nav">Αφαίρεση Εκδηλώσεων</string>
+    <string name="onday_nav">Αφαίρεση Σημερινών</string>
+    <string name="saved_nav">Αφαίρεση Αποθηκευμένων</string>
+    
+    <!-- News Feed -->
+    <string name="news_feed_preferences">Προτιμήσεις Ροής Ειδήσεων</string>
+    <string name="top_always">Κορυφαία Νέα</string>
+    <string name="top_always_hint">Φόρτωση Κορυφαίων Νέων κατά την εκκίνηση του Folio.</string>
+    
+    <!-- Fonts -->
+    <string name="font_preference">Προτιμήσεις Γραμματοσειράς Facebook</string>
+    <string name="larger_font_hint">Αυξήστε την αναγνωσιμότητα με τη διεύρυνση της γραμματοσειράς στο Facebook. Απενεργοποιήστε άλλα μεγέθη για να εφαρμοστούν οι αλλαγές σας.</string>
+    <string name="font_set">Πατήστε για να ανανεωθεί το Folio με το επιλεγμένο μέγεθος της γραμματοσειράς σας.</string>
+    <string name="default_font">Προεπιλεγμένο Μέγεθος Γραμματοσειράς</string>
+    <string name="medium_font">Μεσαίο Μέγεθος Γραμματοσειράς</string>
+    <string name="large_font">Μεγάλο Μέγεθος Γραμματοσειράς</string>
+    <string name="xl_font">Πολύ Μεγάλο Μέγεθος Γραμματοσειράς</string>
+    <string name="xxl_font">Πάρα Πολύ Μεγάλο Μέγεθος Γραμματοσειράς</string>
+    
+    <string-array name="font_choice">
+       	<item>Προεπιλεγμένη Γραμματοσειρά</item>
+       	<item>Μικρή Γραμματοσειρά</item>
+        <item>Μεσαία Γραμματοσειρά</item>
+        <item>Μεγάλη Γραμματοσειρά</item>
+        <item>Πολύ Μεγάλη Γραμματοσειρά</item>
+        <item>Πάρα Πολύ Μεγάλη Γραμματοσειρά</item>
+               
+    </string-array>
+    
+    
+    
+    
+    <!-- Overflow Menu Folio -->
+    <string name="top">Μετάβαση στην Κορυφή</string>
+    <string name="fb_settings">Ρυθμίσεις Facebook</string>
+    <string name="fb_chat">Ενεργεί Φίλοι</string>
+    <string name="fb_recent">Πιο Πρόσφατα</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="notifications">Ειδοποιήσεις</string>
+    <string name="notifications_about_hint">Ρυθμίσεις Ειδοποιήσεων.</string>
+    <string name="search">Αναζήτηση στο Facebook</string>
+    
+    
+   	
+	
+    <!-- Save Image On Long Press  & Sharing-->
+    <string name="saveFolio">Αποθήκευση Εικόνας</string>
+    <string name="txt_save_image_success">Κατέβασμα Εικόνας.</string>
+    <string name="txt_save_image_failed">Η εικόνα δεν μπόρεσε να αποθηκευτεί</string>
+    <string name="share_action">Κοινοποίηση Τρέχουσας Σελίδας</string>
+    <string name="share_action_subject">Σελίδα Facebook</string>
+    
+    <!-- Save Image On Long Press -->
+    
+    <string name="facebook_app_id">691828467548980</string>
+    <string name="get_started">Σύνδεση στο Facebook</string>
+    <string name="send_feedback">Ανατροφοδότηση Folio</string>
+    <string name="ok">OK</string>
+    <string name="applying_changes">Εκκαθάριση Προσωρινής Μνήμης. Επανέναρξη Folio.</string>
+      
+    
+    <string name="cancel">Ακύρωση</string>
+    
+     <!-- Don't Know Why I'm Giving A Choice Here But...-->
+    
+    <string name="site_preference">Επέλεξε Facebook Κατάσταση (BETA)</string>
+    <string name="site_preference_hint">Τρέχουσα Κατάσταση: %s.</string>
+    
+    
+    <string name="default_mode">Έκδοση Κινητής Facebook</string>
+    <string name="basic_mode">Έκδοση Βασικής Facebook</string>
+    <string name="desktop_mode">Έκδοση Υπολογιστή</string>        
+  
+    
+   
+    
+     <!-- DO NOT TRANSLATE-->
+    <string name="about_text"><![CDATA[
+        
+    
+    <b>Tray Preferences</b><br><br>
+    Copyright 2015 grandcentrix GmbH<br><br>
+   	Licensed under the Apache License, Version 2.0 (the "License");
+   	you may not use this file except in compliance with the License.<br>
+   	You may obtain a copy of the License at:<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+   	Unless required by applicable law or agreed to in writing, software
+  	distributed under the License is distributed on an "AS IS" BASIS,
+   	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+   	See the License for the specific language governing permissions and
+   	limitations under the License.<br><br><br>
+   	
+   	
+   	<b>Material Preferences</b><br><br>
+   	
+   	The MIT License (MIT)<br><br>
+	Copyright (c) 2015 Jens Driller<br><br>
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+	<b>Material Preference Compat</b><br><br>
+	The MIT License (MIT)<br><br>
+	Copyright (c) 2015 Fung Jichun<br><br>
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br>
+	<b>Facebook SDK</b><br><br>
+	Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+	<br><br>
+	You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+	copy, modify, and distribute this software in source code or binary form for use
+	in connection with the web services and APIs provided by Facebook.
+	<br><br>
+	As with any software that integrates with the Facebook platform, your use of
+	this software is subject to the Facebook Developer Principles and Policies
+	[http://developers.facebook.com/policy/]. This copyright notice shall be
+	included in all copies or substantial portions of the software.
+	<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	<br><br>
+	<b>Picasso</b><br><br>
+	Copyright 2013 Square, Inc.<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at<br><br>
+	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.<br><br>
+	
+	
+	<b>Tinfoil for Facebook</b><br><br>
+	Copyright 2013 Daniel Velzaco<br><br>
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at<br><br>
+    http://www.apache.org/licenses/LICENSE-2.0<br><br>
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.<br><br>
+    
+    	
+	<b>Clans Floating Action Button</b><br><br>
+	Copyright 2015 Dmytro Tarianyk
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>ActionItemBadge</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>Android-Iconics</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AdvancedWebView</b><br><br>
+	Copyright 2015 delight.im <info@delight.im>
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AppRater</b><br><br>
+	Copyright 2013 Andrew Jackson
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+    ]]></string>
+    
+    <string name="about_header">Open source licenses\nNotices for files</string>
+    
+     <!-- DO NOT TRANSLATE-->
+    <string name="change_log"><![CDATA[
+	<b>Version 7.4.2</b>
+	
+	<br><br>
+	<b>What\'s New</b>
+	<br><br>
+	-Folio is now more supercalifragilisticexpialidocious.<br><br>	
+	-Notification improvements.<br><br>
+	-You can now choose your LED color for notifications (BETA).<br><br>
+	-Removed orange outline in text input fields.<br><br>
+	-Updates to "Favorites".<br><br>
+	-Updated translations.<br><br>
+	-Speed tweaks.<br><br>
+	-Notification badges removed temporarily.<br><br>
+	
+		]]></string>
+    
+     <!-- OK To Translate-->
+    
+	<string name="about_change_log"><b>Αλλαγές Έκδοσης Folio</b></string>
+   
+	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
+	<string name="allrights">Όλα τα Δικαιώματα είναι Κατοχυρωμένα.</string>
+	
+	<string name="about_version">http://www.creativetrendsapps.com</string>
+	<string name="about_image">Πίστωση Λογότυπου: Klyph για Facebook</string>
+	
+    
+     <!-- Random Strings Part 1 -->
+     
+    <string name="fb_offline">Σφάλμα</string>    
+    <string name="hello"></string>    
+    <string name="cancelled">Ακυρώθηκε</string>    
+    <string name="permission_not_granted">Δεν είναι δυνατή η εκτέλεση επιλεγμένης ενέργειας επειδή δεν χορηγήθηκαν δικαιώματα.</string>
+    <string name="image_chooser">Επιλογή Εικόνας</string>
+    <string name="loading_link">Άνοιγμα με Folio</string>   
+    <string name="author">Δημιουργήθηκε από τον Jorell Rutledge</string>    
+    <string name="title_activity_settings">Ρυθμίσεις</string>        
+    <string name="title_activity_about">Σχετικά με το Folio</string>
+    <string name="title_activity_about_hint">Μάθετε για τις διάφορες βιβλιοθήκες που χρησιμοποιούνται στο Folio. Πάρτε την πηγή της στο GitHub, ακολουθήστε μας στο Facebook και σε άλλα.</string>
+    
+    <string name="email_author">Στείλετε τα σχόλιά σας</string>    
+    <string name="choose_email_client">Επιλέξτε E-Mail Client</string>    
+    <string name="no_network">Δεν\είσαι Συνδεδεμένος.</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
+       
+    <string name="share_link">Μοιράσου αυτό το αντικείμενο</string>    
+    <string name="long_clicks">Παρατεταμένο Πάτημα</string>    
+    <string name="long_clicks_description">Παρατεταμένο Πάτημα στις Εικόνες για αποθήκευση.</string>
+    
+            
+    <!-- Random Strings Part 2 -->
+    <string name="preference_category4">Θέματα Folio</string>
+   
+    
+    
+    <string name="donate_jorell">Υποστήριξη Ανάπτυξης &amp; Ξεκλειδώστε Χαρακτηριστικά</string>
+    <string name="donate_jorell_description">Βοήθησέ με για άμεση αναέωση κώδικα.</string>
+    <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
+    <string name="donate_jorell_about">Αγόρασέ μου έναν Καφέ!</string>
+   	
+   	
+    
+     <!-- Bottom Section of Credits-->
+    <string name="hardware_acceleration">Επιτάχυνση Υλικού</string> 
+    <string name="credits_settings">Συντελεστές</string>
+    <string name="preference_category7">Προσαρμογές</string>
+    <string name="preference_about_category">Σχετικά Με</string>
+    <string name="preference_set_category">Όλα 'Ετοιμα;</string>
+    <string name="preference_donate_category">Αγοράστε το Κλειδί του Folio</string>
+    <string name="preference_rest_category">Επαναφορά του Folio στις Προεπιλεγμένες Ρυθμίσεις</string>
+    <string name="preference_category15">Ρυθμίσεις Διάταξης Folio</string>
+    <string name="preference_facebook_layouts">Ρυθμίσεις Διάταξης Facebook</string>
+    
+    <string name="fixed_nav">Σταθερή Γραμμή Facebook</string>
+    <string name="fixed_nav_description">Μπάρα Πλοήγησης Facebook πάντα στην κορυφή.</string>
+    
+    <string name="credits_licenses">Πατήστε εδώ για να διαβάσετε περισσότερα σχετικά με την άδεια που χρησιμοποιείται στο Folio.</string>
+    <string name="credits_licenses_description">Άδειες Χρήσης Λογισμικού Ανοιχτού Κώδικα</string>
+    <string name="clear_cache">Εκκαθάριση Δεδομένων</string>  
+    
+    <string name="clear_cache_title">Είσαι σίγουρος;</string> 
+    <string name="clear_cache_message">Πάτα OK για εκκαθάριση των δεδομένων του Folio. Αυτό θα σε αποσυνδέσει επίσεις.</string> 
+      
+    <string name="clear_cache_description">Εκκαθάριση Δεδομένων του Folio\. Αυτό θα σε αποσυνδέσει επίσεις.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+        
+    <string name="preferences_feedback">Στείλετε τα σχόλιά σας</string>
+    <string name="preferences_feedback_description">Έχετε κάποια ερώτηση; Χρειάζεστε βοήθεια; Πατήστε εδώ για αποστολή email.</string>
+    <string name="preferences_feedback_link" translatable="true">Email στο:creativetrendzappsllc@gmail.com?Subject=Folio</string>
+    
+    <string name="preferences_rate">Βοηθήστε τους άλλους Αξιολόγώντας το Folio</string>
+    <string name="preferences_rate_hint">Αξιολογήστε το Folio στο Google Play</string>
+    <string name="preferences_rate_description">Βαθμολογήστε το Folio</string>
+    
+      
+    <string name="preferences_auto">Ενεργοποίηση Μπάρας Folio</string>
+    <string name="preferences_auto_hint">Αυτό αποκρύπτει την Μπάρα Πλοήγησης του Facebook.</string>
+    
+    
+    
+    
+    
+    <!-- All About Credits -->
+        
+    <string name="preference_category6">Συντελεστές</string>
+    
+    <string name="credits_bejan">Bejan Kanga</string>
+    <string name="credits_bejan_description">Για το λογότυπα εφαρμογής του Folio &amp; Folio Messenger. Επίσεις για κάποια αντικείμενα στην μπάρα πλοήγησης. Επίσης να βοηθήσει με την ανάπτυξη σε τμήματα της αρχικής εφαρμογής FrontPage. Πατήστε εδώ για να επισκεφθείτε την ιστοσελίδα του.</string>
+    <string name="credits_bejan_link" translatable="true">http://bejank.com</string>
+    
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Για βοήθεια σχετικά με τις φωτογραφίες Cover. Ελέγξτε τον Facebook client.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrapper&amp;hl=en</string>
+    
+    <string name="credits_dan">Daniel Velazco/nJames Vento</string>
+    <string name="credits_dan_description">Για χρήση της πλήρους οθόνης βίντεο κώδικα αναπαραγωγής στο Tinfoil. Ελέγξτε το Tinfoil για Facebook.</string>
+    <string name="credits_dan_link" translatable="true">https://play.google.com/store/apps/details?id=com.danvelazco.fbwrapper&amp;hl=en</string>
+    
+        
+    <string name="credits_beta">Ομάδα Facebook</string>
+    <string name="credits_beta_description">Συμμετέχετε στο Creative Trends Beta στο Facebook.</string>
+    <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
+    
+    
+    <string name="credits_google_plus">Google+</string>
+    <string name="credits_google_plus_description">Συμμετέχετε στο Folio για Facebook στο Google+</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    
+    
+    
+    
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">Για το ενδιαφέρον της στον τομέα της τεχνολογίας και επειδή είναι υπομονετική ενώ ο μπαμπάς εργαζόταν.</string>
+    
+    
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">Γιατί ήταν υποστηρικτική και με ενθάρρυνε στη διάρκεια των τελευταίων ετών. Ευχαριστώ που με άφησες να δανειστώ το Laptop.</string>
+    
+    
+    <string name="credits_facebook">Facebook Inc.</string>    
+    <string name="credits_facebook_description">Για τo νέo γράφημά τους. Επίσης για την ιστοσελίδα τους για κινητά η οποία χρησιμοποιείται στο Folio. </string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">Για το AppCompat v7, επίσεις επειδή διαθέτει ελεύθερα τα γραφικά σας εικονίδια σε Material σχεδιασμό.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    
+    
+    <string name="preference_category10">Λογισμικό ανοικτού κώδικα που χρησιμοποιήθηκε</string>
+    <string name="preference_category8">Open Source Licenses</string> 
+     
+    <string name="credits_tray">Προτιμήσεις Δίσκου</string>
+    <string name="credits_tray_description">Πατήστε εδώ για να πληρώσεις το έργο.</string>
+    <string name="credits_tray_link" translatable="true">https://github.com/grandcentrix/tray</string>
+    
+    
+    <string name="credits_material">Folio για Facebook</string>
+    <string name="credits_material_description">Πατήστε εδώ για να πληρώσεις το έργο.</string>
+    <string name="credits_material_link" translatable="true">https://github.com/creativetrendsapps/Folioforfacebook</string>
+    
+        
+    <string name="credits_preferences">Υλικό Προτίμησης Compat</string>
+    <string name="credits_preferences_description">Πατήστε εδώ για να πληρώσεις το έργο.</string>
+    <string name="credits_preferences_link" translatable="true">https://github.com/fython/MaterialPreferenceCompat</string>
+    
+    
+    
+    <!-- All About Translations  -->
+    
+    <string name="preference_category12">Μεταφράσεις</string> 
+           
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiano (Ιταλικά)</string>
+    
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Español (Ισπανικά)</string>
+    
+    <string name="credits_german">Clemens Corell</string>
+    <string name="credits_german_description">Deutsch (Γερμανικά)</string>
+    
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Português de Brasil (Πορτογαλλικά Βραζιλίας)</string>
+    
+    <string name="credits_turk">Mehmet Çalışkan</string>
+    <string name="credits_turk_description">Türkçe (Τούρκικα)</string>
+    
+    <string name="credits_fren">Jean Philippe</string>
+    <string name="credits_fren_description">Français (Γαλλικά)</string>
+    
+    <string name="credits_pol">seba112</string>
+    <string name="credits_pol_description">Polski (Πολωνικά)</string>
+    
+    <string name="credits_rom">Iulian Szidelo</string>
+    <string name="credits_rom_description">Romana (Ρουμάνικα)</string>
+    
+    <string name="credits_rom">Αχιλλέας Π. Καραπαναγιώτης</string>
+    <string name="credits_rom_description">Greek (Ελληνικά)</string>
+    
+    <string name="help_trans">Βοηθήστε στη Μετάφραση</string>
+    <string name="help_trans_hint">Πατήστε εδώ για να βοηθήσετε να μεταφρασθεί το Folio στη γλώσσα σας.</string>
+   
+    
+        
+    
+    
+    
+    
+    
+    <!-- All About Notifications -->
+    
+    <string name="preference_category5">Γενικά</string>
+    <string name="activate_notifications">Ειδοποιήσεις Facebook</string>
+    <string name="activate_messages">Ειδοποιήσεις Μηνυμάτων</string>
+    <string name="activate_friends">Ειδοποιήσεις Αιτημάτων Φιλίας</string>    
+    <string name="notifications_service_created">Ειδοποιήσεις Ενεργοποιήθηκαν</string>
+    <string name="notifications_settings">Ειδοποιήσεις</string>
+    <string name="all_notifications">Προβολή Ειδοποιήσεων</string>
+    <string name="all_messages">Προβολή Μηνυμάτων</string>
+    <string name="all_requests">Προβολή Αιτημάτων Φιλίας</string>
+    <string name="notification_sound">Ήχος Ειδοποίησης</string>
+    <string name="notification_sound_description">Επιλεγμένος: \u0020</string>
+    <string name="message_sound">Ήχος Ειδοποίησης Μηνύματος</string>
+    <string name="message_sound_description">Επιλεγμένος: \u0020</string>
+    <string name="silent">Χωρίς Ήχο</string>
+    <string name="vibrate">Δόνηση</string>
+    <string name="led_light">Ειδοποίηση Φωτισμού LED</string>
+    <string name="led_color">Χρώμα Φωτισμού LED</string>
+    <string name="led_color_description">Τρέχων χρώμα φωτισμού LED: %s.</string>
+    <string name="notifications_extra">Πρόσθετα</string>
+    <string name="notifications_everywhere">Πάντα να Ειδοποιούμαι</string>
+    <string name="notifications_everywhere_description">Ακομή και όταν χρησιμοποιείς το Folio.</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    <string name="get_app_store">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app</string>
+    
+   	
+	
+	<string name="friend_request">&#160;νέο αίτημα φιλίας</string>
+	<string name="friend_requests">&#160;νέα αιτήματα φιλίας</string>
+	
+	<string name="new_notification">&#160;νέα ειδοποίηση</string>
+	<string name="new_notifications">&#160;νέες ειδοποιήσειςs</string>
+	
+		
+	
+             
+    <!-- ALL ABOUT THEMES-->
+    
+    
+    <string name="choose_font_facebook">Μέγεθος Γραμματοσειράς Facebook</string>
+    <string name="choose_font_facebook_hint">Τρέχων Μέγεθος Γραμματοσειράς: %s</string>
+    
+    
+   <string name="preference_category3">Θέματα Facebook</string>
+    
+    <string name="dark_theme">Μαύρο Θέμα</string>
+    
+    <string name="dark_theme_description">Ενεργοποίησε το Μαύρο Θέμα.</string>
+    
+    <string name="red_theme">Θέμα Android Studio</string>
+    
+    <string name="red_theme_description">Ενεργοποίησε το Dracula θέμα.</string>
+     
+    
+          
+          
+   	<string-array name="pref_theme_entries">
+        <item>Folio Θέμα</item>
+        <item>Folio Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Ροζ Θέμα</item>
+        <item>Ροζ Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Μωβ Θέμα</item>
+        <item>Μωβ Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Βαθύ Μωβ Θέμα</item>
+        <item>Βαθύ Μωβ Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Σκοτεινό Θέμα</item>
+        <item>Πορτοκαλί Θέμα</item>
+        <item>Πορτοκαλί Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Βαθύ Πορτοκαλί Θέμα</item>
+        <item>Βαθύ Πορτοκαλί Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Γεράκι Θέμα</item>
+        <item>Γεράκι Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Lime Πράσινο Θέμα</item>
+        <item>Lime Πράσινο Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Πράσινο Θέμα</item>
+        <item>Πράσινο Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Ανοιχτό Πράσινο Θέμα</item>
+        <item>Ανοιχτό Πράσινο Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Amber Πορτοκαλί Θέμα</item>
+        <item>Amber Πορτοκαλί Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Κίτρινο Θέμα</item>
+        <item>Κίτρινο Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Κόκκινο Θέμα</item>
+        <item>Κόκκινο Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Μπλε Θέμα</item>
+        <item>Μπλε Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Ανοιχτό Μπλε Θέμα</item>
+        <item>Ανοιχτό Μπλε Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Κυανό Θέμα</item>
+        <item>Κυανό Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Teal Θέμα</item>
+        <item>Teal Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Καφέ Θέμα</item>
+        <item>Καφέ Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Γκρι Θέμα</item>
+        <item>Γκρι Θέμα Σκοτεινό Συρτάρι</item>
+        <item>Μπλε Γκρι Θέμα</item>
+        <item>Μπλε Γκρι Θέμα Σκοτεινό Συρτάρι</item>
+        
+            
+        
+        
+    </string-array>
+    
+   	
+   	   
+   	
+   	<string-array name="pref_theme_fb_entries">
+    <item>Θέμα Facebook</item>              
+   	<item>Μαύρο Θέμα</item>
+   	<item>Δράκουλα Θέμα</item>
+   	<item>Folio Θέμα</item>
+    </string-array>
+
+   	
+   	<string name="quick_bar">Συντομεύσεις</string>
+   	<string name="quick_bar_hint">Προβολή Συντομεύσεις Folio;</string>
+   	
+   	<string name="quick_bar_on">Οι Συντομεύσεις είναι ενεργοποιημένες.</string>
+   	
+   	<string name="quick_bar_off">Οι Συντομεύσεις είναι απενεργοποιημένες.</string>
+   	
+   	       
+    <string name="no_images">Απενεργοποίηση Εικόνων</string>
+    <string name="no_images_hint">Μειώστε τη χρήση δεδομένων με την αφαίρεση εικόνων.</string>
+      
+        
+    <string name="hide_bar">Αφαίρεση Μπάρας Facebook</string>
+    <string name="hide_bar_hint">Σύρετε το δάχτυλό σας από το αριστερό άκρο της οθόνης για να αποκτήσετε πρόσβαση στο μενού του Folio.</string>
+    
+    
+    <string name="choose_theme_folio">Επιλέξτε Θέμα Εφαρμογής</string>
+    <string name="choose_theme_facebook">Επιλέξτε Θέμα Facebook</string>
+    <string name="choose_theme_folio_hint">Τρέχων Θέμα: %s</string>
+      
+    
+    <string name="hidden_bar">Ενεργοποίηση Μπάρας Facebook</string>
+    <string name="hidden_bar_hint">Απενεργοποίησε την Μπάρα του Folio πρώτα.</string>
+    
+   <string name="sync_problem">Οχ όχι! Αυ΄το είανι ένα σφάλμα. Το Folio δεν μπόρεσε να πάρε τις ενημερώσεις σας. Παρακαλώ κλείστε και ανοίξτε πάλι το Folio.</string>
+   
+   <string name="you_have_one_message">Έχεις 1 νέο μήνυμα</string>
+  <string name="you_have_n_messages">'You have'Εχεις %d νέα μηνύματα</string>
+  
+  	<string name="file_logger">Αποθηκεύστε τα αρχεία καταγραφής σε ένα αρχείο</string>
+    <string name="file_logger_description">Αποθηκεύστε τα αρχεία καταγραφής Υπηρεσίας Ειδοποίησης σε εξωτερική μνήμη sd. Χρειάζεται να δώσετε άδεια αποθήκευσης σε εξωτερική μνήμη.</string>
+    <string name="file_logger_needs_permission">Δεν παρέχεται πρόσβαση στην εξωτερική μνήμη sd. H καταγραφής Υπηρεσίας Ειδοποίησης δεν μπορεί να αποθηκευθεί.</string>
+    
+    
+         
+    <string name="interval_pref">Υπηρεσία Συγχρονισμού</string>
+    <string name="interval_pref_description">Οι Ειδοποιήσεις θα ανανεώνονται κάθε %s.</string>
+          
+                 
+        <string-array name="update_interval">
+        <item>1 λεπτό</item>
+        <item>5 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>3 ώρες</item>
+        <item>6 ώρες</item>        
+    </string-array>
+    
+    <string-array name="update_interval_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>        
+    </string-array>
+
+    
+    <string name="not_valid_title">Μη Έγκυρο</string>
+    <string name="not_valid_message">Αυτή η έκδοση του Folio δεν είναι από το Play Store και δεν θα λειτουργήσει σωστά.</string>
+    <string name="get_from_play">Google Play</string>
+    
+    <string name="people_you">Άτομα που μπορεί να γνωρίζετε</string>
+    <string name="people_you_hint">Αποκρύψτε τα Άτομα που μπορεί να γνωρίζετε. (BETA)</string>
+    
+    <string name="download_manager_disabled">Ο Διαχειρηστής Λήψεων είανι απενεργοποιημένος. Παρακαλώ ενεργοποιήστε τον.</string>
+    <string name="cannot_access_storage">Δεν παρέχεται πρόσβαση στην εξωτερική μνήμη αποθήκευσης sd</string>
+    <string name="file_cannot_be_saved">Ένα αρχείο δεν μπορεί να αποθηκευθεί</string>
+    <string name="camera_exception">Προβλήματα με την φωτογραφική μηχανή</string>
+    
+    <!-- Folio Favorites -->
+    
+    <string name="open_link_title">Προσαρμοσμένες Καρτέλες Chrome</string>
+    <string name="open_link_hint">Άνοιγμα των εξωτερικών συνδέσμων μέσω Προσαρμοσμένων Καρτελών Chrome; Ο Chrome πρέπει να εγκατασταθεί για να λειτουργήσει αυτό.</string>
+    
+    <string name="addPage">Προσθήκη στα Αγαπημένα</string>
+    <string name="removePage">Αφαίρεση από τα Αγαπημένα</string>
+    
+    <string name="remember_title">Θέση Ροής Ειδήσεων (Beta)</string>
+    <string name="remember_hint">Ενθύμηση Θέσης Ροής Ειδήσεων.</string>
+    <string name="faq">Συχνές Ερωτήσεις</string>
+    
+    <string name="notify_log">Αρχεία Καταγραφής Υπηρεσίας Ειδοποίησης</string>
+    <string name="notify_log_hint">Αποθήκευση διαγνωστικών Αρχεία Καταγραφής Υπηρεσίας Ειδοποίησης; Αυτό δεν επιτρέπει στο Folio να συλλέγει προσωπικά σας δεδομένα.</string>
+    
+    <string name="btn_chioce">Διάλεξε(%d)</string>
+    
+    <string name="offline_folio">Ενεργοποίηση Λειτουργίας χωρίς Σύνδεση</string>
+    <string name="offline_folio_hint">Εξοικονομήστε δεδομένα πλοήγησης ενεργοποιώντας την Λειτουργίας χωρίς Σύνδεση; Αυτό γράφει ένα ιδιωτικό αρχείο για να ενεργοποιήσετε τη Λειτουργία εκτός Σύνδεσης στο Folio.</string>
+    
+    <string name="folio_lock">Ενεργοποίηση Κλειδώματος Folio</string>
+    
+    <string name="folio_message_bubble">Ενεργοποίηση Αιωρούμενων Φυσαλίδων Μηνυμάτων Folio</string>
+    <string name="folio_message_bubble_hint">Μείνετε σε συνομιλία με την Αιωρούμενη Φυσαλίδα Μηνύματος;</string>
+    
+    <string name="folio_video">Μεταφόρτωση Βίντεο</string>
+    <string name="folio_checkins">Κοινοποίηση Παρουσίας</string>
+    <string name="folio_tags">Επισύναψε ένα Φίλο</string>
+    <string name="folio_images">Μεταφόρτωση Εικόνας από τη Συλλογή</string>
+    
+    
+    <string name="unlock_text">Παρακαλώ Εισάγετε τον Κωδικό Κλειδώματος</string>
+    <string name="lock_abort">Ακύρωση</string>
+    <string name="lock_pin">Κωδικός Κλειδώματος</string>
+    <string name="lock_text">Ασφαλίστε το Folio με έναν Κωδικό Κλειδώματος</string>
+    <string name="lock_confirm">επιβεβαίωση κωδικού κλειδώματος</string>
+    <string name="lock_wrong">Λάθος Κωδικός Κλειδώματος</string>
+    <string name="lock_empty">Ο Κωδικός Κλειδώματος δεν μπορεί να είναι κενός</string>
+</resources>
